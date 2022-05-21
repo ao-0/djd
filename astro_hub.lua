@@ -22,17 +22,17 @@ do
 	local L_3_ = L_2_.__newindex;
 	setreadonly(L_2_, false);
 	L_2_.__newindex = newcclosure(function(L_5_arg0, L_6_arg1, L_7_arg2)
-		if L_6_arg1 == 'Text' and tostring(L_7_arg2):find'ASTRO' then
-			L_7_arg2 = L_7_arg2:gsub("ASTRO", "MUDWARE V6 & DJD")
+		if L_6_arg1 == "Text" and tostring(L_7_arg2):find"ASTRO HUB" then
+			L_7_arg2 = L_7_arg2:gsub("ASTRO HUB", "MUDWARE V6 & DJD")
 		end;
 		return L_3_(L_5_arg0, L_6_arg1, L_7_arg2)
 	end);
 	setreadonly(L_2_, true)
 	hookfunction(game:GetService("RbxAnalyticsService").GetClientId, function()
-		return 'sex'
+		return "sex"
 	end)
 	old = hookfunction(syn.request, function(L_8_arg0)
-		if (L_8_arg0.Url:find'127.0.0.1') then
+		if (L_8_arg0.Url:find"127.0.0.1") then
 			return
 		end;
 		return old(L_8_arg0)
