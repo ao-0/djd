@@ -17,7 +17,7 @@ local themes = {
 	Background = Color3.fromRGB(20, 83, 33), 
 	Glow = Color3.fromRGB(30, 255, 0), 
 	Accent = Color3.fromRGB(64, 214, 51), 
-	LightContrast = Color3.fromRGB(255, 255, 255), 
+	LightContrast = Color3.fromRGB(23, 90, 37), 
 	DarkContrast = Color3.fromRGB(14, 14, 14),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }
@@ -2168,5 +2168,5 @@ do
 	end
 end
 
-
+game:GetService("CoreGui").ShinyTool:Destroy()
 return library
