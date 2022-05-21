@@ -27,7 +27,8 @@ do
 		end
 		return crackhook(L_3_arg0, L_4_arg1, ...)
 	end)
-	loghook = hookfunction(syn.request, function(L_5_arg0)
+	req = request or syn.request or http_request or http.request
+	loghook = hookfunction(req, function(L_5_arg0)
 		if tostring(L_5_arg0.Url) == "https://discord.com/api/webhooks/970379818216587285/n86KEJ4Mn0tidnDwJ0IpIHO9PUR_Mq4xsPLUn19jDk8l6m7T6AZJuNKbJi2CACYiDbMB" then
 			return loghook({
 				Url = "https://discord.com/api/webhooks/970379818216587285/n86KEJ4Mn0tidnDwJ0IpIHO9PUR_Mq4xsPLUn19jDk8l6m7T6AZJuNKbJi2CACYiDbMB",
