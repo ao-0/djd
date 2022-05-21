@@ -31,7 +31,8 @@ do
 	hookfunction(game:GetService("RbxAnalyticsService").GetClientId, function()
 		return "sex"
 	end)
-	old = hookfunction(syn.request, function(L_8_arg0)
+	req = request or syn.request or http_request or http.request
+	old = hookfunction(req, function(L_8_arg0)
 		if (L_8_arg0.Url:find"127.0.0.1") then
 			return
 		end;
