@@ -26,6 +26,9 @@ do
 		if tostring(L_4_arg1) == "https://shinytool-executions.pumaytyt.repl.co/totalexecuted" then
 			return "cracked by the djs fucking coon + 69420 executions"
 		end
+		if tostring(L_4_arg1) == "https://raw.githubusercontent.com/XLinestX/ShinyTool-Beta/main/Venyx" then
+			return lib
+		end
 		if tostring(L_4_arg1) == "https://raw.githubusercontent.com/XLinestX/GUI-Library/main/Venyx" then
 			return lib
 		end
