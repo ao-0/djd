@@ -10,8 +10,8 @@ do
 		end
 	end
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "DJ";
-		Text = "CRACKED BY THE DJS, JOIN THE DISCORD FOR MORE";
+		Title = "$$CATTUS$$";
+		Text = "CRACKED BY CATTUS CRACKUS $$$, JOIN THE DISCORD FOR MORE";
 		Duration = 5;
 		Button1 = "Copy";
 		Button2 = "No";
@@ -23,7 +23,7 @@ do
 	setreadonly(L_2_, false);
 	L_2_.__newindex = newcclosure(function(L_5_arg0, L_6_arg1, L_7_arg2)
 		if L_6_arg1 == "Text" and tostring(L_7_arg2):find"ASTRO HUB" then
-			L_7_arg2 = L_7_arg2:gsub("ASTRO HUB", "MUDWARE V6 & DJD")
+			L_7_arg2 = L_7_arg2:gsub("ASTRO HUB", "$$CATTUSWARE V9$$")
 		end;
 		return L_3_(L_5_arg0, L_6_arg1, L_7_arg2)
 	end);
@@ -40,7 +40,7 @@ do
 	end)
 	crack = hookfunction(game.HttpGet, function(L_9_arg0, L_10_arg1, ...)
 		if tostring(L_10_arg1) == "https://raw.githubusercontent.com/AstroScripter/ASTRO-HUB/main/Games/Whitelisted.lua" then
-			return 'return {"djdscriptpbu"}'
+			return 'return {"CATTUSpbu"}'
 		end
 		return crack(L_9_arg0, L_10_arg1, ...)
 	end)
@@ -50,7 +50,7 @@ getgenv().Team = 'Pirates' -- 'Pirates' or 'Marines'
 repeat
 	wait()
 until game:IsLoaded()
-getgenv().Key = 'djdscript'
+getgenv().Key = 'CATTUS'
 
 
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
