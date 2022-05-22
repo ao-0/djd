@@ -4,13 +4,13 @@
 local callback = Instance.new("BindableFunction")
 function callback.OnInvoke(a)if a=="Copy" then setclipboard('https://discord.gg/8ps4575qtH') end end
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "DJ";
-	Text = "CRACKED BY THE DJS, JOIN THE DISCORD FOR MORE";
-	Duration = 5;
-	Button1 = "Copy";
-	Button2 = "No";
-	Callback = callback
-})
+		Title = "$$CATTUS$$";
+		Text = "CRACKED BY CATTUS CRACKUS $$$, JOIN THE DISCORD FOR MORE";
+		Duration = 5;
+		Button1 = "Copy";
+		Button2 = "No";
+		Callback = callback
+	})
 
 if game.PlaceId == 1224212277 then
 	print("Loaded")
@@ -39,7 +39,7 @@ if game.PlaceId == 1224212277 then
    ):Play()
 	end
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Mad City", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Mad City", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
 
 -- MAIN
 	local main = Window:Tab("Main")
@@ -1141,7 +1141,7 @@ elseif game.PlaceId == 155615604 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn - Prison Life", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn - Prison Life", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
 
 -- MAIN
 	local main = Window:Tab("Main")
@@ -1464,7 +1464,7 @@ elseif game.PlaceId == 537413528 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Build A Boat For Treasures", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Build A Boat For Treasures", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
             
             
             -- MAIN
@@ -1648,7 +1648,7 @@ elseif game.PlaceId == 3956818381 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Ninja Legends", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Ninja Legends", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
             
             -- MAIN
 	local main = Window:Tab("Main")
@@ -1900,7 +1900,7 @@ elseif game.PlaceId == 2580982329 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - SMS Simulator", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - SMS Simulator", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
                     
                     -- MAIN
 	local main = Window:Tab("Main")
@@ -2165,7 +2165,7 @@ elseif game.PlaceId == 662417684 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Ninja Legends", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Ninja Legends", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
                     
                     -- MAIN
 	local main = Window:Tab("Main")
@@ -2417,7 +2417,7 @@ elseif game.PlaceId == 7560156054 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Clicker Simulator!", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Clicker Simulator!", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
         
         
         -- MAIN
@@ -2631,7 +2631,7 @@ elseif game.PlaceId == 3102144307 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Anime Clicker Simulator", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Anime Clicker Simulator", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
         
         
         -- MAIN
@@ -3300,7 +3300,7 @@ elseif game.PlaceId == 3101667897 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Legends Of Speed", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Legends Of Speed", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
         
         
         -- MAIN
@@ -3890,7 +3890,7 @@ elseif game.PlaceId == 7989049516 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Clicker Simulator!", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Clicker Simulator!", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
         
         
         -- MAIN
@@ -4129,7 +4129,7 @@ elseif game.PlaceId == 2248408710 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Destruction Simulator", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Destruction Simulator", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
         
         
         -- MAIN
@@ -4307,7 +4307,7 @@ elseif game.PlaceId == 3527629287 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Big Paintball", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Big Paintball", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
 	Function = {
 		Noclip = false,
 	}
@@ -4763,7 +4763,7 @@ elseif game.PlaceId == 621129760 then
 	wait()
 	print("For help join discord.gg/8ps4575qtH")
 	local Library = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
-	local Window = Library:Window("MudWare Reborn v4.4.2.3.1 - Big Paintball", Color3.fromRGB(95, 65, 10), Enum.KeyCode.RightShift)
+	local Window = Library:Window("$$CATTUS WARE$$ Reborn v4.4.2.3.1 - Big Paintball", Color3.fromRGB(255, 243, 72), Enum.KeyCode.RightShift)
                 
                 -- MAIN
 	local main = Window:Tab("Main")
