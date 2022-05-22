@@ -1,4 +1,13 @@
-
+local callback = Instance.new("BindableFunction")
+function callback.OnInvoke(a)if a=="Copy" then setclipboard('https://discord.gg/8ps4575qtH') end end
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "DJ";
+	Text = "CRACKED BY THE DJS, JOIN THE DISCORD FOR MORE";
+	Duration = 5;
+	Button1 = "Copy";
+	Button2 = "No";
+	Callback = callback
+})
 getrenv().fastrun_enabled = false
 getrenv().fastrun_speed = 0.6
 
