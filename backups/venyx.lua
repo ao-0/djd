@@ -2168,5 +2168,4 @@ do
 	end
 end
 
-game:GetService("CoreGui").ShinyTool:Destroy()
 return library
