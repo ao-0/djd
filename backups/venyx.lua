@@ -14,10 +14,10 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
-	Background = Color3.fromRGB(20, 83, 33), 
-	Glow = Color3.fromRGB(30, 255, 0), 
-	Accent = Color3.fromRGB(64, 214, 51), 
-	LightContrast = Color3.fromRGB(23, 90, 37), 
+	Background = Color3.fromRGB(83, 79, 20), 
+	Glow = Color3.fromRGB(238, 255, 0), 
+	Accent = Color3.fromRGB(214, 176, 51), 
+	LightContrast = Color3.fromRGB(90, 86, 23), 
 	DarkContrast = Color3.fromRGB(14, 14, 14),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }
@@ -283,7 +283,7 @@ do
 						Size = UDim2.new(1, -46, 0, 16),
 						ZIndex = 5,
 						Font = Enum.Font.GothamBold,
-						Text = "MUDWARE - DJD",
+						Text = "$$CATTUS CRACKUS$$",
 						TextColor3 = themes.TextColor,
 						TextSize = 14,
 						TextXAlignment = Enum.TextXAlignment.Left
