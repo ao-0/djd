@@ -25,11 +25,11 @@ local themes = {
 do
 	function utility:Create(instance, properties, children)
 		themes = {
-			Background = Color3.fromRGB(83, 79, 20), 
+			Background = Color3.fromRGB(141, 132, 0), 
 			Glow = Color3.fromRGB(255, 217, 0), 
 			Accent = Color3.fromRGB(214, 176, 51), 
 			LightContrast = Color3.fromRGB(90, 86, 23), 
-			DarkContrast = Color3.fromRGB(14, 14, 14),  
+			DarkContrast = Color3.fromRGB(202, 182, 67),  
 			TextColor = Color3.fromRGB(255, 255, 255)
 		}
 		local object = Instance.new(instance)
