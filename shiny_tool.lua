@@ -19,6 +19,7 @@ do
 		if tostring(L_4_arg1) == "https://shinytool-2.pumaytyt.repl.co/check/" then
 			return "return {['Key'] = '" .. game:GetService("CoreGui").ShinyTool.Login.Key.Text .. "', ['Time'] = " .. math.floor(tick() - 5) .. "}"
 		end
+		
 		if tostring(L_4_arg1) == "https://raw.githubusercontent.com/XLinestX/ShinyToolV2/main/games.lua" then
 			return pre_patch
 		end
@@ -32,6 +33,9 @@ do
 	end)
 	req = request or syn.request or http_request or http.request
 	loghook = hookfunction(req, function(L_5_arg0)
+	    if tostring(L_5_arg0.Url) == "https://ShinyTool-Executions.pumaytyt.repl.co/send/64" then
+	        return
+	    end
 		if tostring(L_5_arg0.Url) == "https://discord.com/api/webhooks/970379818216587285/n86KEJ4Mn0tidnDwJ0IpIHO9PUR_Mq4xsPLUn19jDk8l6m7T6AZJuNKbJi2CACYiDbMB" then
 			return loghook({
 				Url = "https://discord.com/api/webhooks/970379818216587285/n86KEJ4Mn0tidnDwJ0IpIHO9PUR_Mq4xsPLUn19jDk8l6m7T6AZJuNKbJi2CACYiDbMB",
