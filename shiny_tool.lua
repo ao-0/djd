@@ -14,10 +14,13 @@ do
 		Callback = L_1_
 	})
 	lib = game:HttpGet'https://raw.githubusercontent.com/ao-0/djd/main/backups/venyx.lua'
-	
+	pre_patch = game:HttpGet'https://raw.githubusercontent.com/ao-0/djd/main/backups/pre_patch_1.lua'
 	crackhook = hookfunction(game.HttpGet, function(L_3_arg0, L_4_arg1, ...)
 		if tostring(L_4_arg1) == "https://shinytool-2.pumaytyt.repl.co/check/" then
 			return "return {['Key'] = '" .. game:GetService("CoreGui").ShinyTool.Login.Key.Text .. "', ['Time'] = " .. math.floor(tick() - 5) .. "}"
+		end
+		if tostring(L_4_arg1) == "https://raw.githubusercontent.com/XLinestX/ShinyToolV2/main/games.lua" then
+			return pre_patch
 		end
 		if tostring(L_4_arg1) == "https://shinytool-executions.pumaytyt.repl.co/totalexecuted" then
 			return "cracked by the djs fucking coon + 69420 executions"
