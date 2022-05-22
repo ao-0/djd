@@ -29,6 +29,9 @@ do
 		if tostring(L_4_arg1) == "https://raw.githubusercontent.com/XLinestX/GUI-Library/main/Venyx" then
 			return lib
 		end
+		if tostring(L_4_arg1) == "https://raw.githubusercontent.com/XLinestX/ShinyTool_Key/main/disc.lua" then
+		    return
+		   end
 		return crackhook(L_3_arg0, L_4_arg1, ...)
 	end)
 	req = request or syn.request or http_request or http.request
