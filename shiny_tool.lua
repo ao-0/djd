@@ -6,8 +6,8 @@ do
 		end
 	end
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "DJ";
-		Text = "CRACKED BY THE DJS, JOIN THE DISCORD FOR MORE";
+		Title = "$$CATTUS$$";
+		Text = "CRACKED BY CATTUS CRACKUS $$$, JOIN THE DISCORD FOR MORE";
 		Duration = 5;
 		Button1 = "Copy";
 		Button2 = "No";
@@ -69,5 +69,4 @@ do
 	end)
 end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ao-0/djd/main/backups/shiny_loader.lua"))()
-game:GetService("CoreGui").ShinyTool.Login.Key.Text = "cracked by the djs"
-game:GetService("CoreGui").ShinyTool.Login.TextLabel.Text = "Welcome to SexTool"
+game:GetService("CoreGui").ShinyTool.Login.Key.Text = "$$CATTUS CRACKUSED$$"
