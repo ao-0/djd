@@ -1,11 +1,25 @@
 -- clicker sim peepware bypass
+local L_1_ = Instance.new("BindableFunction")
+function L_1_.OnInvoke(L_2_arg0)
+	if L_2_arg0 == "Copy" then
+		setclipboard('https://discord.gg/8ps4575qtH')
+	end
+end
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "$$CATTUS$$";
+	Text = "CRACKED BY CATTUS CRACKUS $$$, JOIN THE DISCORD FOR MORE";
+	Duration = 5;
+	Button1 = "Copy";
+	Button2 = "No";
+	Callback = L_1_
+})
 lib = game:HttpGet'https://gist.githubusercontent.com/ao-0/bc82ce70a70b5a829ba258251f183c67/raw/720cf31e4867943c2a265cb95d7ce49231f7422b/venyx_crack.lua'
-crack = hookfunction(game.HttpGet, function(self, url, ...)
-		if tostring(url) == "https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua" then
-			return lib
-		end
-		return crack(self, url, ...)
-	end)
+crack = hookfunction(game.HttpGet, function(L_3_arg0, L_4_arg1, ...)
+	if tostring(L_4_arg1) == "https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua" then
+		return lib
+	end
+	return crack(L_3_arg0, L_4_arg1, ...)
+end)
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
