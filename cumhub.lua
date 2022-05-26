@@ -40,8 +40,8 @@ do
 		if tostring(L_6_arg1) == "https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua" then
 			return lib
 		end
-		if tostring(L_4_arg1):find'MaGiXxScripter' then
-			return crack(L_3_arg0, L_4_arg1:gsub('MaGiXxScripter', 'ao-0'), ...)
+		if tostring(L_6_arg1):find'MaGiXxScripter' then
+			return crack(L_5_arg0, L_6_arg1:gsub('MaGiXxScripter', 'ao-0'), ...)
 		end
 		return crack(L_5_arg0, L_6_arg1, ...)
 	end)
